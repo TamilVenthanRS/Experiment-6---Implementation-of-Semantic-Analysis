@@ -37,7 +37,7 @@ def read_text_file(file_path):
         text = file.read()
     return text
 
-file_path = 'ias1.txt'  # Replace with the path to your text file
+file_path = 'text1.txt'  # Replace with the path to your text file
 text = read_text_file(file_path)
 
 def get_verbs(text):
